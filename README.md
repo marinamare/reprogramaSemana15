@@ -28,8 +28,7 @@ As variáveis de ambiente setadas no .env são acessadas pelo comando process.en
 É uma boa prática colocar esse acesso no arquivo de app, que inicializa tudo e está na raiz do projeto. Assim, não é preciso replicar em todos os outros lugares. 
 
 
-6. Criar variável contendo a SECRET
-no arquivo de controller, que contém as funções a serem autenticadas;
+6. Criar variável contendo a SECRET no arquivo de controller, que contém as funções a serem autenticadas;
 `$ const secret = process.env.SECRET`
 `process.` acessa uma variável global situada no arquivo `env.` `SECRET.` acesso a um objeto que tem uma chave chamada SECRET. 
 
